@@ -1,0 +1,234 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 50}, {400, 28}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "F67389DA-5013-4C6B-9E5E-A199EE80B7F8",
+          "font_size" : 18,
+          "frame" : "{{47, 128}, {150, 32}}",
+          "segments" : "Peek|Pop|Double",
+          "action" : "button_method_1",
+          "alignment" : "center",
+          "alpha" : 1,
+          "text_color" : "RGBA(0.000000,0.384314,0.800000,1.000000)",
+          "text" : "Select a haptic feedback",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "title",
+          "flex" : "WB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 186}, {380, 34}}",
+        "class" : "Slider",
+        "attributes" : {
+          "flex" : "W",
+          "continuous" : true,
+          "action" : "slider_method_2",
+          "frame" : "{{60, 143}, {200, 34}}",
+          "uuid" : "EE6AC7FC-C8B0-4DA4-A663-7D41262DD811",
+          "class" : "Slider",
+          "value" : 0.5,
+          "name" : "variable_method_2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 265}, {358, 30}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "7BFF63D0-0C84-423E-95FE-DC755C087478",
+          "flex" : "LRB",
+          "corner_radius" : 9,
+          "background_color" : "RGBA(0.000000,0.384314,0.800000,1.000000)",
+          "frame" : "{{82, 128}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.384314,0.800000,1.000000)",
+          "border_width" : 3,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Selection",
+          "action" : "button_method_4",
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "type_selection",
+          "font_size" : 15
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 79}, {380, 29}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "action" : "button_method_1",
+          "flex" : "WB",
+          "segments" : "Peek|Pop|Double",
+          "frame" : "{{140, 258}, {120, 29}}",
+          "uuid" : "1262A4E6-2B71-4C17-B874-9688DAD1A72A",
+          "class" : "SegmentedControl",
+          "name" : "taptic_method_1"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 116}, {380, 29}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "action" : "button_method_2",
+          "flex" : "WB",
+          "segments" : "Light|Medium|Heavy|Rigid|Soft",
+          "frame" : "{{140, 258}, {120, 29}}",
+          "uuid" : "1262A4E6-2B71-4C17-B874-9688DAD1A72A",
+          "class" : "SegmentedControl",
+          "name" : "taptic_method_2"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 153}, {380, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "251887A7-7F41-44DE-80C9-24222677F9F4",
+          "font_size" : 13,
+          "frame" : "{{125, 257}, {150, 32}}",
+          "segments" : "Peek|Pop|Double",
+          "action" : "button_method_1",
+          "alignment" : "center",
+          "alpha" : 1,
+          "text_color" : "RGBA(0.000000,0.384314,0.800000,1.000000)",
+          "text" : "Intensity",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "slider_intensity",
+          "flex" : "WB"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 228}, {380, 29}}",
+        "class" : "SegmentedControl",
+        "attributes" : {
+          "action" : "button_method_3",
+          "flex" : "WB",
+          "segments" : "Success|Warning|Error",
+          "frame" : "{{140, 258}, {120, 29}}",
+          "uuid" : "1262A4E6-2B71-4C17-B874-9688DAD1A72A",
+          "class" : "SegmentedControl",
+          "name" : "taptic_method_3"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{10, 305}, {380, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "uuid" : "251887A7-7F41-44DE-80C9-24222677F9F4",
+          "flex" : "WB",
+          "frame" : "{{125, 257}, {150, 32}}",
+          "segments" : "Peek|Pop|Double",
+          "action" : "button_method_1",
+          "alignment" : "center",
+          "alpha" : 1,
+          "text_color" : "RGBA(0.000000,0.384314,0.800000,1.000000)",
+          "text" : "Tone (comma seperated 0-9 values)",
+          "font_name" : "<System>",
+          "class" : "Label",
+          "name" : "label_tone",
+          "font_size" : 13
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 345}, {360, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "text_color" : "RGBA(0.000000,0.384314,0.800000,1.000000)",
+          "class" : "TextField",
+          "frame" : "{{100, 257}, {200, 32}}",
+          "border_width" : 1,
+          "title" : "Selection",
+          "corner_radius" : 9,
+          "font_name" : "<System>",
+          "action" : "text_haptic_tone",
+          "placeholder" : "",
+          "uuid" : "601325F7-7827-457A-AEF6-3D1144C07272",
+          "background_color" : "RGBA(0.000000,0.384314,0.800000,1.000000)",
+          "autocorrection_type" : "no",
+          "name" : "text_haptic_tone",
+          "spellchecking_type" : "no",
+          "flex" : "LRB",
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "text" : "4,9,0,3,9",
+          "font_size" : 15,
+          "alignment" : "left",
+          "font_bold" : false,
+          "border_color" : "RGBA(0.000000,0.384314,0.800000,1.000000)"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{22, 385}, {358, 30}}",
+        "class" : "Button",
+        "attributes" : {
+          "uuid" : "7BFF63D0-0C84-423E-95FE-DC755C087478",
+          "font_size" : 15,
+          "corner_radius" : 9,
+          "background_color" : "RGBA(0.000000,0.384314,0.800000,1.000000)",
+          "frame" : "{{82, 128}, {80, 32}}",
+          "border_color" : "RGBA(0.000000,0.384314,0.800000,1.000000)",
+          "border_width" : 3,
+          "tint_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+          "title" : "Play",
+          "action" : "button_taptic_tone",
+          "font_bold" : false,
+          "class" : "Button",
+          "name" : "button_taptic_tone",
+          "flex" : "LRB"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {400, 545}}",
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "name" : "test_haptic",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
